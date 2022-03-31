@@ -1,0 +1,123 @@
+body {background:url(https://images.fineartamerica.com/images-medium-large-5/glowing-red-and-black-abstract-fractal-art-matthias-hauser.jpg)}
+h1{font-size: large; color: chartreuse;}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0; 
+    z-index: 1;}
+
+ul {
+    list-style-type: none; background-color: black;
+    float: left;
+}
+
+ul li {
+    
+    padding-right: 14px;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;  float: left;  
+    box-shadow: 5px 10px red;
+}
+
+ul li a {
+    /* gets rid of unline in link */
+    text-decoration: none;  
+    color: white;
+}
+
+ul li a:hover {
+    color: blue;
+}
+ul li:hover {
+        background-color: rgb(231, 19, 19)}
+ 
+figcaption {text-align: center; padding: 1px;}
+
+figure { border: 1px solid black; margin:auto; width: 700; display:inline-block
+}
+
+.item { float: right;
+border-radius: 2px;}
+
+.columns {
+    float: left;
+    width: 475px;
+    padding: 10px;
+    margin: 6px;
+    font-size: xx-large;
+}
+
+.one {
+    width: 25%;
+    color: chartreuse;
+}
+
+.two {
+    width: 40%;
+    color: chartreuse;
+}
+
+.three {
+    width: 25%;
+    color: chartreuse;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: chartreuse;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: chartreuse;
+  }
+
+  footer {
+      clear: both;
+      padding: 5px;
+      text-align: center;
+      background-color: black;
+      box-shadow: 5px 10px red;
+      color: chartreuse;
+      
+      
+  }
+
+  .hero {
+    
+    height: 600px;
+    width: 800px;
+    background-position: bottom right;
+    margin-bottom: 10px;
+
+}
+
+.text-back-hero {
+    background-color: rgb(255, 0, 0, 0.5);
+    padding: 12px 50px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.whatever {
+    color: antiquewhite ;
+}
